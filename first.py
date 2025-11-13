@@ -1,2 +1,17 @@
-print("hello world")
-print(2+2)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Character Counter</title>
+  <link rel="stylesheet" href="sttyle.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Live Character Counter</h2>
+    <textarea id="textInput" placeholder="Type something..."></textarea>
+    <p id="charCount">Characters: 0</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
